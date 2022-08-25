@@ -2,16 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="cartilla.js"></script>
     <title>Cartilla de la Unidad Scout</title>
 </head>
 <body>
-    <h1>¡¡Bienvenido a tu cartilla!!</h1>
-    <div>
-        <p>
-
-        </p>
-    </div>
+	<header><h1>¡¡Bienvenido a tu cartilla!!</h1></header>
+	<section>
+		<form action="/ingreso.php" method="POST">
+    		<label for="nombre">Nombre</label>
+    		<input type="text" id="nombre" name="nombre" placeholder="nombre"><br>
+    		<label for="nombre">Patrulla</label>
+    		<input type="text" id="patrulla" name="patrulla" placeholder="patrulla"><br>
+    		<button type="submit">Ingresar</button>
+    	</form>
+	</section>
+	<footer></footer>
 </body>
 </html>
